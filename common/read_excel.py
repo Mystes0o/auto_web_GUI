@@ -1,11 +1,10 @@
 # -*- coding:utf8 -*- #
 # -----------------------------------------------------------------------------------
-# ProjectName:
+# ProjectName:  game_auto
 # FileName:     read_excel
-# Author:      MingFeiyang
+# Author:      xiaoxiao
 # Datetime:    2022/8/3 15:21
 # -----------------------------------------------------------------------------------
-
 from openpyxl import load_workbook
 
 
@@ -27,4 +26,10 @@ def read_excel(filename, sheet_name):
                 i.value = ""
             case.append(i.value)
         kong.append(case)
+    print(kong[1::])
     return kong[1::]
+
+
+if __name__ == '__main__':
+    read_excel(r"../data_config/ere_cfr_case.xlsx", "Sheet1")
+

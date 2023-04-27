@@ -17,4 +17,4 @@ def read_yaml(filename):
 
 
 if __name__ == '__main__':
-    print(read_yaml(r"E:\Project\selenium_48\Day4\yaml_case.yaml"))
+    print(read_yaml(r""))

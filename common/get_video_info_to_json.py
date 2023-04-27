@@ -45,12 +45,11 @@ def get_video_info_to_json(source_video_path=r"C:\Users\admini\Downloads"):
         height = int(video_stream['height'])  # 高
         video_code_name = video_stream["codec_name"]  # 编码格式
         #  帧率
-        fps = Decimal(int(video_stream['r_frame_rate'].
-                          split('/')[0]) / int(video_stream['r_frame_rate'].split('/')[1])).quantize(Decimal("0.00"))
+        fps = int(int(video_stream['r_frame_rate'].split('/')[0]) / int(video_stream['r_frame_rate'].split('/')[1]))
 
         video_info_dict = {"视频路径": str(video_path), "宽": width,
                            "高": height, "视频编码格式": video_code_name,
-                           "帧率": str(fps),
+                           "帧率": fps,
                            "比特率": str(bit_rate),
                            "视频大小": str(size),
                            "视频时长": str(duration)}
@@ -68,7 +67,7 @@ def get_video_info_to_json(source_video_path=r"C:\Users\admini\Downloads"):
 
     """将数据写入json文件"""
     test_time = time.strftime("%Y_%m_%d_%H-%M-%S")
-    js_name = "../result/video_info_{}.json".format(test_time)
+    js_name = r"E:\python\gitproject\auto_web_GUI\result\video_js\video_info_{}.json".format(test_time)
     with open(js_name, "w", encoding='utf-8') as f:
         json.dump(video_info_dict, f, ensure_ascii=False)
         print(video_info_dict)
@@ -76,4 +75,5 @@ def get_video_info_to_json(source_video_path=r"C:\Users\admini\Downloads"):
     return video_info_dict
 
 
-get_video_info_to_json()
+if __name__ == '__main__':
+    get_video_info_to_json(r"E:\test_material\ere_record")

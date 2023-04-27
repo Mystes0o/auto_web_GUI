@@ -1,35 +1,19 @@
 # -*- coding:utf8 -*- #
 # -----------------------------------------------------------------------------------
-<<<<<<< HEAD
 # FileName:
 # Author:      MingFeiyang
 # Datetime:    2022/8/1 16:43
-# Description：执行测试套并生成测试报告
+# Description：这个模块，用于执行测试套并生成测试报告
 # -----------------------------------------------------------------------------------
-
-
-=======
-# ProjectName:   selenium_48
-# FileName:     adduserpage
-# Author:      MingFeiyang
-# Datetime:    2022/8/1 16:43
-# Description：
-# -----------------------------------------------------------------------------------
-
-# 这个模块，用于执行测试套并生成测试报告
-
 import unittest
 from time import strftime
 from HTMLTestRunner import HTMLTestRunner
 from common.read_ini import ReadIni
 
 
+class EreTest:
 
-
-
-class RanzhiTest:
-
-    def run_ranzhi(self):
+    def run_ere(self):
         # 实例化测试条件对象 用于装测试用例
         suite = unittest.TestSuite()
         # 获取用例路径
