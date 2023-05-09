@@ -5,28 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76f8bbee-4a95-45d2-998a-0b13e960add3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/case/ere_case/test_ere_mod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/ere_case/test_ere_CFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/ere_case/test_ere_CFR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - .html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assertion/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/ere_case/test_ere_CFR.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/get_video_info_to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_video_info_to_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/read_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_ini.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_config/data_config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/data_config/data_config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_config/ere_cfr_case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_config/ere_cfr_case.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/process/Ere_fix.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/Ere_fix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/ere_CFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/ere_CFR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/video_info_2023_04_25_10-36-09.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/video_info_2023_04_26_12-31-10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_23_15_03_55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_23_15_18_13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_25_10_55_35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/ere_CFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/ere_record_mod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-10-27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-13-20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-14-36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-16-17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-19-50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-20-37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-20-48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-21-38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_11-22-34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_12-48-04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_12-48-55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_12-49-37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_13-12-16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_13-13-14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-20-24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-21-25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-22-15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-25-16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-26-17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-27-07.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-40-47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-41-47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/video_js/video_info_2023_04_27_14-42-35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/com_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/result/report" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,56 +62,39 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OwixYWWhzwS06l9M3cLcKA5HsO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/python/gitproject/auto_web_GUI/case/ere_case",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/python/gitproject/auto_web_GUI/case/ere_case&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python\gitproject\auto_web_GUI\case\ere_case" />
+      <recent name="E:\python\gitproject\auto_web_GUI\test" />
       <recent name="E:\python\gitproject\auto_web_GUI\case\ere_case\.pytest_cache" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_ere_CFR.py">
-    <configuration name="com_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="auto_web_GUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/com_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ere_CFR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ere_record_mod (1)">
+    <configuration name="ere_record_mod (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_web_GUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +107,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/ere_CFR.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/ere_record_mod.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ere_record_mod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="auto_web_GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python\gitproject\auto_web_GUI\process\ere_record_mod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="read_ini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_web_GUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,7 +173,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_ini.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_ere_CFR.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_ere_mod.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_web_GUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,17 +193,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/ere_case/test_ere_CFR.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/ere_case/test_ere_mod.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_ere_CFR.py" />
-        <item itemvalue="Python.read_excel" />
-        <item itemvalue="Python.com_test" />
+        <item itemvalue="Python.ere_record_mod (1)" />
+        <item itemvalue="Python tests.Python tests in test_ere_mod.py" />
         <item itemvalue="Python.get_video_info_to_json" />
-        <item itemvalue="Python.ere_CFR" />
+        <item itemvalue="Python.ere_record_mod" />
+        <item itemvalue="Python.read_ini" />
       </list>
     </recent_temporary>
   </component>
@@ -193,19 +219,47 @@
       <workItem from="1682478353001" duration="54000" />
       <workItem from="1682479300132" duration="6813000" />
       <workItem from="1682559988079" duration="13043000" />
-      <workItem from="1682576223232" duration="4894000" />
+      <workItem from="1682576223232" duration="5565000" />
+      <workItem from="1682642152918" duration="8932000" />
+      <workItem from="1682658369310" duration="85000" />
+      <workItem from="1682658813465" duration="85000" />
+      <workItem from="1682659017242" duration="72000" />
+      <workItem from="1682659311964" duration="60000" />
+      <workItem from="1682659536334" duration="2061000" />
+      <workItem from="1682661648207" duration="4140000" />
+      <workItem from="1683161751711" duration="7513000" />
+      <workItem from="1683187321729" duration="129000" />
+      <workItem from="1683187465085" duration="3816000" />
+      <workItem from="1683358713573" duration="2308000" />
+      <workItem from="1683523718266" duration="5209000" />
+      <workItem from="1683533532005" duration="3664000" />
+      <workItem from="1683609768372" duration="6359000" />
+      <workItem from="1683618251862" duration="1651000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/auto_web_GUI$ere_CFR.coverage" NAME="ere_CFR Coverage Results" MODIFIED="1682563638929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/auto_web_GUI$get_video_info_to_json.coverage" NAME="get_video_info_to_json Coverage Results" MODIFIED="1682565200803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/auto_web_GUI$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1682571993064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/auto_web_GUI$.coverage" NAME=" Coverage Results" MODIFIED="1682577598894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/ere_case" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$ere_CFR.coverage" NAME="ere_CFR Coverage Results" MODIFIED="1683534974585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1682646223524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$get_video_info_to_json.coverage" NAME="get_video_info_to_json Coverage Results" MODIFIED="1683535940815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$.coverage" NAME=" Coverage Results" MODIFIED="1683613296077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/ere_case" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$read_ini.coverage" NAME="read_ini Coverage Results" MODIFIED="1683534779493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/auto_web_GUI$json_update_test.coverage" NAME="json_update_test Coverage Results" MODIFIED="1682486495733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/auto_web_GUI$com_test.coverage" NAME="com_test Coverage Results" MODIFIED="1682570699231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$com_test.coverage" NAME="com_test Coverage Results" MODIFIED="1683185160460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/auto_web_GUI$ere_record_mod__1_.coverage" NAME="ere_record_mod (1) Coverage Results" MODIFIED="1683619902379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
   </component>
 </project>

@@ -13,6 +13,7 @@ from time import sleep
 import os
 import json
 import pyautogui
+from common.base_gui import coordinate_click
 
 
 def ere_fix_process(format, time):  # 视频修复流程
@@ -24,7 +25,7 @@ def ere_fix_process(format, time):  # 视频修复流程
     :param time: 录制的时间长度
     :return:
     """
-    # 修改ere配置文件
+    """修改配置文件"""
     with open(r"C:\Users\admini\AppData\Local\EaseUS\EaseUS RecExperts\settings.json", 'r', encoding='utf-8') as load_f:
         load_dict = json.load(load_f)
         print(type(load_dict))
@@ -39,12 +40,21 @@ def ere_fix_process(format, time):  # 视频修复流程
         print(type(load_dict))
         print(load_dict)
 
+    """录制"""
     os.startfile(r"C:\Program Files (x86)\EaseUS\RecExperts\bin\RecExperts.exe")  # 打开ere
     sleep(5)
     pyautogui.press('f9')  # 按F9开始录制
     sleep(time+6)
-    os.system("taskkill /f /im RecExperts.exe")  # 强制结束ere
+    os.system("taskkill /f /im RecExperts.exe")  # 在多少秒后强制结束ere
     sleep(3)
+
+    """ 修复"""
+    os.startfile(r"C:\Program Files (x86)\EaseUS\RecExperts\bin\RecExperts.exe")  # 再次打开ere
+    coordinate_click("yes按钮")  # 点击yes按钮
+    coordinate_click("repair now按钮")  # 点击repair now按钮
+    coordinate_click("OK按钮")
+
+
 
 
 if __name__ == '__main__':
