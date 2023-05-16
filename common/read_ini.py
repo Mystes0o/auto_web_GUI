@@ -78,6 +78,12 @@ class ReadIni:
         # 拼接成完整路径
         return os.path.join(self.pro_url, file_url)
 
+    def get_pic_path(self):
+        # 读取ini文件的内容
+        file_url = self.config.get("path", "pic_path")
+        # 拼接成完整路径
+        return os.path.join(self.pro_url, file_url)
+
 
 if __name__ == '__main__':
     r = ReadIni()
@@ -85,4 +91,6 @@ if __name__ == '__main__':
     print(r.get_json_path())
     print(r.get_excel_path())
     print(r.get_video_path())
-
+    print(r.get_pic_path())
+    print(r.get_log_path())
+    print(r.get_case_path())

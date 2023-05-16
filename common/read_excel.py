@@ -21,7 +21,7 @@ def read_excel(filename, sheet_name):
         # 第二个for循环遍历的是当个单元格的数据
         for i in hang_tuple:
             # 筛选为空的单元格
-            if i.value == None:
+            if i.value is None:
                 # 重新赋值为空字符串
                 i.value = ""
             case.append(i.value)

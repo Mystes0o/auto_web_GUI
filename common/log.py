@@ -1,5 +1,6 @@
 import logging
 import os
+from common.read_ini import ReadIni
 
 
 # 配置日志
@@ -12,6 +13,6 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(),  # 输出到控制台
-        logging.FileHandler(os.path.join(log_path, 'test.log'))  # 输出到文件
+        logging.FileHandler(os.path.join(log_path, ReadIni().get_log_path() + 'test.log'))  # 输出到文件
     ]
 )
